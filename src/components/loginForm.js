@@ -14,6 +14,7 @@ function LoginForm() {
       <button type="" className="btn-1">
         Sign IN
       </button>
+      <p>test</p>
     </div>
   );
 }
