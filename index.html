@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarivision+ V2.1.1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<script src="https://kit.fontawesome.com/39cb45df36.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+
+  </head>
+
+
+
+<body>
+
+    <!-- menu only -->
+
+    <div class="menu" id="menu1">
+        <div class="top-section-menu flex-display">
+            <div class="col-md-10">
+                <img class="menu-logo" src="asset/cv-logo.png " alt="">
+            </div>
+
+            <div class="col-md-2" onclick="hidemenu()">
+              <img class="icon1" src="asset/icon/closemenu.svg" alt="" >
+             
+            </div>
+
+        </div>
+
+            <!-- menu item start -->
+
+
+
+
+
+      <div class="mid-section-menu flex-display hover-color active-menu">
+        <div class="col-md-2">
+            <img class="icon2 force-left-8" src="asset/icon/dashboard1.svg" alt="">
+        </div>
+        <div class="col-md-8">
+            <h1 class="menu-item-text">Dashboard</h1>
+        </div>
+
+      </div>
+
+
+       <div class="mid-section-menu flex-display hover-color" onclick=" location.href='event.html' " >
+         <div class="col-md-2">
+           <img class="icon2 force-left-8" src="asset/icon/event1.svg" alt="">
+         </div>
+         <div class="col-md-8">
+          <h1 class="menu-item-text">Event List</h1>
+         </div>
+
+         </div>
+
+
+      <div class="mid-section-menu flex-display hover-color" onclick=" location.href='map.html' ">
+        <div class="col-md-2">
+          <img class="icon2 force-left-8" src="asset/icon/map1.svg" alt="">
+       </div>
+        <div class="col-md-8">
+          <h1 class="menu-item-text">Event Map</h1>
+        </div>
+
+      </div>
+
+
+      <div class="mid-section-menu flex-display hover-color" onclick=" location.href='vgst.html' ">
+         <div class="col-md-2">
+           <img class="icon2 force-left-8" src="asset/icon/vgts1.svg" alt="">
+        </div>
+        <div class="col-md-8">
+          <h1 class="menu-item-text">Camera Monitoring</h1>
+         </div>
+
+      </div>
+
+
+      <div class="mid-section-menu flex-display hover-color" onclick=" location.href= 'devicelist.html' ">
+        <div class="col-md-2">
+          <img class="icon2 force-left-8" src="asset/icon/device1-01.svg" alt="">
+        </div>
+        <div class="col-md-8">
+          <h1 class="menu-item-text">Device List</h1>
+        </div>
+
+      </div>
+
+
+  
+
+
+
+      <div class="mid-section-menu flex-display hover-color">
+        <div class="col-md-2">
+         <img class="icon2 force-left-8" src="asset/icon/report1.svg" alt="">
+        </div>
+        <div class="col-md-8">
+         <h1 class="menu-item-text">Report</h1>
+        </div>
+
+      </div>
+
+
+      <div class="mid-section-menu flex-display hover-color " id="analytics-section" onclick= "showanalyticsitem() ">
+        <div class="col-md-2">
+         <img class="icon2 force-left-8" src="asset/icon/ana1.svg" alt="">
+        </div>
+        <div class="col-md-8 ">
+          <h1 class="menu-item-text flex-display">Analytic <p class="filler-text">(New)</p></h1>
+        </div>
+ 
+       </div>
+   
+   
+       <!------------ Analytics list item start ------------>
+ 
+ 
+       <div class="cam-item-menu flex-display hover-color hidden" id="analytics-list" onclick=" location.href= 'analytics1.html' " >
+         <div class="col-md-2">
+           <img class="icon4 force-left-8" src="asset/icon/cam1.svg" alt="">
+         </div>
+         <div class="col-md-8">
+           <h1 class="cam-item-text">Camera A-1-232</h1>
+         </div>
+   
+     </div>
+ 
+ 
+ 
+ 
+ 
+       
+       <!------------ analytics list item end ------------>
+
+
+       <div class="mid-section-menu flex-display hover-color"  onclick=" location.href='device.html' ">
+        <div class="col-md-2">
+         <img class="icon2 force-left-8" src="asset/icon/dev-01.svg" alt="">
+        </div>
+        <div class="col-md-8">
+          <h1 class="menu-item-text flex-display">Device Mgr <p class="filler-text">(New)</p></h1>
+        </div>
+ 
+       </div>
+
+      <!-- menu item end -->
+
+      <div class="divider2">
+        <p>divide</p>
+      </div>
+      
+    </div>
+
+      <!-- menu bottom start -->
+
+      <div class="bottom-menu" id="botmenu">
+
+        <div class="divider">
+          <p>divide</p>
+        </div>
+
+        <div class="bot-section-menu flex-display hover-color">
+          <div class="col-md-2">
+           <img class="icon3 force-left-8" src="asset/icon/setting1.svg" alt="">
+          </div>
+          <div class="col-md-8">
+            <h1 class="menu-bot-text">Configuration</h1>
+          </div>
+   
+         </div>
+
+
+        <div class="divider">
+          <p>divide</p>
+        </div>
+
+         <div class="bot-section-menu flex-display hover-color">
+          <div class="col-md-2">
+           <img class="icon3 force-left-8" src="asset/icon/logout1.svg" alt="">
+          </div>
+          <div class="col-md-8" onclick=" location.href='login.html' ">
+            <h1 class="menu-bot-text">Logout</h1>
+          </div>
+   
+         </div>
+
+
+      </div>
+
+      <!-- menu bottom end -->
+
+            <!-- slim bottom start -->
+
+
+
+
+    <div class="menu-slim hidden" id="slim-menu">
+      <div class="slim-img-logo" onclick="location.href='index.html'">
+        <img src="asset/cv-icon.png" alt="" >
+
+      </div>
+
+      <div>
+       <table class="menu-slim-item">
+        <tr class="active-menu">
+          <td>
+            <img src="asset/icon/dashboard1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/event1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/map1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/vgts1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/device1-01.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/report1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/ana1.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="asset/icon/dev-01.svg" alt="">
+          </td>
+        </tr>
+
+       </table>
+      </div>
+    </div>
+
+          <!-- slim bottom start -->
+
+
+        <!-- menu only -->
+
+
+    <div class=" content content-display-block">
+      <div class="top-container flex-display">
+
+        <div class="col-md-2 flex-display">
+          <div class="open-menu hidden" id="open-menu">
+            <img class="icon5" src="asset/icon/openmenu.svg" alt="" onclick="openmenu()">
+          </div>
+          <h1 class="primary-text padding-top-4 margin-left-20 margin-right-20">Dashboard</h1>
+          <i class="fa fa-caret-down primary-text padding-top-4 dropdown-layout" aria-hidden="true" onclick="togglelayout()"></i>
+        </div>
+
+        <div class="col-md-8">
+          <h1></h1>
+        </div>
+
+
+       <div class="col-md-2 flex-display right-top-box hidden" id="right-top">
+          <div class="img-container">
+            <img class="psim-logo-rigth" src="asset/cv-logo.png" alt="">
+          </div>
+       
+          
+        </div> 
+        
+   
+        
+
+      </div>
+
+
+
+
+
+
+<div class="content-2">
+  <div class=" margin-top-100 color-black line-bottom line-top hidden" id="selection">
+    <div class="main-container padding-20">
+      <h1 class=" secondary-text ">Layout Selection</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row padding-top-10">
+            <div class="col-md-3 dashboard-select active-menu">
+              <img class="width-80-percent" src="asset/setup-01.svg" alt="" onclick="location.href='index.html'">
+              <head class=" secondary-text ">Layout 1</head>
+            </div>
+            <div class="col-md-3 dashboard-select">
+              <img class="width-80-percent" src="asset/setup-02.svg" alt="" onclick="location.href='index2.html'">
+              <head class=" secondary-text ">Layout 2</head>            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+  </div>
+
+  <div class="main-container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="box-1" class="box margin-top-100 margin-bot-10 padding-all-30">
+          <div class="row">
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Open Case</p>
+                <div class=" ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-folder-open-o"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Unassigned Cases</p>
+                <div class=" ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-user-times"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Overdue Cases</p>
+                <div class="itemfilter ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-times-circle-o"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Total Cases Today</p>
+                <div class="itemfilter ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-folder-o"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Active Operators</p>
+                <div class="itemfilter ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-users"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-2">
+              
+              <div class="containerfilter">
+                <p>Active Mobile Users</p>
+                <div class="itemfilter ">
+                  <table class="tablefilter y">
+                    <tr>
+        
+                      <td>
+                        <p class="numberfilter">00</p>
+                      </td>
+                      <td>
+                        <i class="fa fa-mobile"  aria-hidden="true"></i>
+                      </td>
+
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+
+      <div class="col-md-6  ">
+        <div class="box " id="box-front">
+
+          <div class="box-head">
+            <h1 class="secondary-text">Activity Log</h1>
+
+
+
+
+          </div>
+
+          <div class="box-item custom-height-360">
+            <table class="table-v1 table-activity-log">
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              <tr>
+                <td>SuperAdmin has successfully login</td>
+                <td>12:01:34 AM</td>
+              </tr>
+              
+            </table>
+          </div>
+          <div class="pagination-1 margin-top-20 margin-bot-20"> <i class="fa fa-dot-circle" aria-hidden="true" onclick="flip2()"></i> <i class="fa fa-circle" style="color: gray;" aria-hidden="true" onclick="flip()"></i></div>
+        </div>
+
+
+    
+
+
+
+        <div class="box backbox flip-to-front   hidden" id="box-back">
+          <div class="box-head force-no-border">
+            <h1 class=" secondary-text">Timestamp</h1>
+
+          </div>
+
+
+          <div class="box-item custom-height-360">
+            <table class="table-v1 text-align-center table-timestamp">
+              
+              <thead >
+                <tr >
+                  <th> <p>Officer Name</p> </th>
+                  <th><p>Shift</p></th>
+                  <th><p>Previous Hour</p></th>
+                  <th><p>Current Hour</p></th>
+                  <th><p>Last Login</p></th>
+                </tr>
+              </thead>
+              
+
+              <tr >
+
+
+                <td>Thomas Shelby</td>
+                <td><i class="fas fa-sun    "></i></td>
+                <td>10AM - 0 View</td>
+                <td>11AM - 0 View</td>
+                <td>13:10:22 PM</td>
+              </tr>
+
+              <tr>
+
+
+                <td>Arthur Shelby</td>
+                <td><i  class="fas fa-sun " ></i></td>
+                <td>10AM - 0 View</td>
+                <td>11AM - 0 View</td>
+                <td>13:10:22 PM</td>
+              </tr>
+
+              <tr>
+
+
+                <td>Henry John</td>
+                <td><i class="fas fa-moon    "></i></td>
+                <td>10AM - 0 View</td>
+                <td>11AM - 0 View</td>
+                <td>13:10:22 PM</td>
+              </tr>
+              
+              
+            </table>
+          </div>
+          <div class="pagination-1 margin-top-20 margin-bot-20">  <i class="fa fa-circle" style="color: gray;" aria-hidden="true" onclick="flip2()"></i><i class="fa fa-dot-circle" aria-hidden="true"></i></div>
+        </div>
+
+      </div>
+      <div class="col-md-3 ">
+        <div class="box">
+        <div class="box-head force-no-border">
+          <h1 class="secondary-text">Project SLA</h1>
+
+        </div>
+
+        <div class="custom-height-412">
+          <figure class="pie-chart">
+
+            <figcaption>
+              Project Site 1 38<span style="color:#499ed7"></span><br>
+              Project Site 2 23<span style="color:#657681"></span><br>
+              Project Site 3 16<span style="color:#bb2927"></span><br>
+              Project Site 4 10<span style="color:#323f48"></span><br>
+              Project Site 5 6<span style="color:#6eb47a"></span><br>
+              Project Site 6 7<span style="color:#a7b6c0"></span>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>      
+    
+    </div>
+
+      <div class="col-md-3  ">
+        <div class="box">
+          <div class="box-head force-no-border">
+            <h1 class="secondary-text">SLA Timer</h1>
+
+          </div>
+
+          <div class="box-item custom-height-390 align-items-center">
+            <div class="containertimer ">
+              <div id="countdown">
+                <ul class="pad-left-0">
+                  <li class="hidden"><span id="days" ></span>days</li>
+                  <li class="hidden"><span id="hours" class="hidden"></span>Hours</li>
+                  <li><span id="minutes"></span>Minutes</li>
+                  <li><span id="seconds"></span>Seconds</li>
+                </ul>
+              </div>
+  
+            </div>
+            <div class="flex-display margin-top-50 padding-bot-20 sub-headline line-bottom">
+              Overall percentage of completion: <p class="p-container color-yellow">78.03%</p></div>
+  
+            <div class=" flex-display margin-top-30 sub-headline">
+              Time needed to meet SLA: <p class="p-container color-red">60 Minutes</p></div>
+  
+
+          </div>
+          
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="box margin-top-10">
+
+          <div class="box-head position-relative flex-display">
+
+            <h1 class="secondary-text ">Event List</h1>
+            <button class="button-v1" onclick="togglefilter()"> Filter 
+              <i id="carret-up" class="fa fa-caret-down" aria-hidden="true"></i>
+              <i id="carret-down" class="fa fa-caret-up hidden" aria-hidden="true"></i>            
+            </button>
+
+          </div>
+
+          <div class="box-item cancel-padding">
+
+            <div id="filter-event" class="row gutter-remove color-black hidden line-bottom ">
+              <div class="col-md-8 margin-bot-20 line-right">
+                <div class=" flex-display">
+
+                  <div class="filter-item flex-display ">
+
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    <p>Start Time</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+
+
+                  <div class="filter-item flex-display ">
+
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    <p>End Time</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+
+                  <div class="filter-item flex-display ">
+
+                    <p>Status</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+
+                  <div class="filter-item flex-display ">
+
+                    <p>Severity</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+
+                  <div class="filter-item flex-display ">
+
+                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                    <p>Location</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+
+                  <div class="filter-item flex-display ">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <p>Owner</p>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="row padding-top- ">
+                  <div class="col-md-12 padding-right-30 padding-left-30 text-align-center">
+                    <button class="button-v2"> <i class="fa fa-search" aria-hidden="true"></i>Search Now 
+                    </button>
+                    <button class="button-v2"> <i class="fa fa-times" aria-hidden="true"></i> Clear Filter
+                    </button>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="margin-top-30">
+              <table class="table-v2 table-event">
+                
+                <thead>
+                  <tr>
+                    <th> <p>Case Number</p> </th>
+                    <th><p>Severity</p></th>
+                    <th><p>Time</p></th>
+                    <th><p>Description</p></th>
+                    <th><p>Status</p></th>
+                    <th><p>Location</p></th>
+                    <th><p>Owner</p></th>
+                    <th><p>Triger</p></th>
+                    <th><p>SLA</p></th>
+                    <th><p>Time Status</p></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                
+  
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip1()">
+                    <div class="top hidden" id="tooltip-event1">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip2()">
+                    <div class="top hidden" id="tooltip-event2">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip3()">
+                    <div class="top hidden" id="tooltip-event3">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip4()">
+                    <div class="top hidden" id="tooltip-event4">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip5()">
+                    <div class="top hidden" id="tooltip-event5">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip6()">
+                    <div class="top hidden" id="tooltip-event6">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+                <tr >
+  
+  
+                  <td onclick="location.href='case.html'">P12341</td>
+                  <td onclick="location.href='case.html'"><p class="label-event">High</p></td>
+                  <td onclick="location.href='case.html'">12:24:32 (23/04/22)</td>
+                  <td onclick="location.href='case.html'">Fire detection UV + Infra-red flame sensor setup for demonstration.</td>
+                  <td onclick="location.href='case.html'">Assigned</td>
+                  <td onclick="location.href='case.html'">Block B</td>
+                  <td onclick="location.href='case.html'">Thomas Shelby</td>
+                  <td onclick="location.href='case.html'"><i class="fa fa-fire" aria-hidden="true"></i></td>
+                  <td onclick="location.href='case.html'">3 Minutes</td>
+                  <td onclick="location.href='case.html'">N/A</td>
+                  <td><i class="fa fa-info-circle " aria-hidden="true" onclick="toggletooltip7()">
+                    <div class="top hidden" id="tooltip-event7">
+                      <div class="row">
+                        <div class="col-md-4 border-tooltip">
+                          <div class="img-tooltip">
+                            <img class="tooltip-img" src="asset/imgid1.jpg" alt="">
+                          </div>
+                          <div class="tooltip-text">Owner: <p>Thomas Shelby</p></div>
+                          <div class="tooltip-text">Case Number: <p>P12341</p></div>
+                        </div>
+                        <div class="col-md-8">
+                          <table class="table-tooltip">
+                            <tr>
+                              <td>Severity:</td>
+                              <td><p>High</p></td>
+                            </tr>
+                            <tr>
+                              <td>SLA:</td>
+                              <td>3 min</td>
+                            </tr>
+                            <tr>
+                              <td>Time:</td>
+                              <td>04/04/2022 13:29</td>
+                            </tr>
+                            <tr>
+                              <td>Triger:</td>
+                              <td>Fire</td>
+                            </tr>
+                            <tr>
+                              <td>Location:</td>
+                              <td>N/A</td>
+                            </tr>
+                            <tr>
+                              <td>Status:</td>
+                              <td>Assigned</td>
+                            </tr>
+                            <tr>
+                              <td>Assigned Time:</td>
+                              <td>N/A</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      
+                     
+                      <i></i>
+                  </div>
+                  </i></td>
+                  
+                </tr>
+  
+  
+  
+                
+                
+  
+  
+  
+  
+  
+                
+                
+              </table>
+            </div>
+          </div>
+  
+
+          <div class="pagination-2 margin-bot-20 margin-top-10">
+            <i class="fas fa-angle-left   force-opacity-50 "></i>
+            <p class="font-bold-700">1</p>
+            <p class="force-opacity-50">2</p>
+            <p class="force-opacity-50">3</p>
+            <p class="force-opacity-50">...</p>
+            <p class="force-opacity-50">7</p>
+            <i class="fas fa-angle-right    "></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+     
+    </div>
+</div>
+
+
+  </div>
+
+ </body>
+</html>

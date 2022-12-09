@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wms-web/static/css/main.5387307e.css",
+    "main.js": "/wms-web/static/js/main.b544815b.js",
+    "index.html": "/wms-web/index.html",
+    "main.5387307e.css.map": "/wms-web/static/css/main.5387307e.css.map",
+    "main.b544815b.js.map": "/wms-web/static/js/main.b544815b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5387307e.css",
+    "static/js/main.b544815b.js"
+  ]
+}
