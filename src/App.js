@@ -1,12 +1,19 @@
 import "./App.css";
 import React from "react";
-import LoginWidget from "./components/loginWidget";
+import Login from "./components/pages/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dashboard from "./components/pages/dashboard";
 
 function App() {
   return (
-    <div className="login-container">
-      <LoginWidget />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/wms-web2" element={<Login />} />
+          <Route path="/wms-web2/dashboard" element={<Dashboard />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

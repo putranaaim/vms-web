@@ -1,22 +1,26 @@
 import React from "react";
 import "./loginForm.css";
+import INPUT from "./input";
+import { Link } from "react-router-dom";
 
-function LoginForm() {
+export const LoginForm = ({ type, onClick }) => {
   return (
     <div className="row login-form">
+      <img src={require("../images/w.png")} alt="" />
       <label for="">Building Name or Code</label>
-      <input type="" name="" value="" placeholder="Building Name or Code" />
+      <INPUT placeholder="Building Name" />
       <label for="">Username</label>
-      <input type="" name="" value="" placeholder="User Name" />
+      <INPUT placeholder="Username" />
       <label for="">Password</label>
-      <input type="" name="" value="" placeholder="Password" />
+      <INPUT placeholder="Password" />
       <p>Forgot Password?</p>
-      <button type="" className="btn-1">
-        Sign IN
-      </button>
-      <p>test</p>
+      <Link to="/wms-web2/dashboard">
+        <button className="btn-1" onClick={onClick} type={type}>
+          Sign In
+        </button>
+      </Link>
     </div>
   );
-}
+};
 
 export default LoginForm;
