@@ -1,0 +1,29 @@
+.total-container {
+  width: -webkit-fill-available;
+  margin-top: -30px !important;
+}
+
+.number-item p {
+  font-size: 5rem;
+  margin-top: 5px;
+  margin-bottom: -30px;
+  color: #ffa200;
+}
+
+.number-item p:hover {
+  cursor: default;
+}
+
+.detailIcon-item {
+  text-align: center;
+}
+
+.detailIcon-item i {
+  font-size: 6rem;
+  color: #ffa200;
+}
+
+.detailIcon-item i:hover {
+  background-color: white !important;
+  cursor: default;
+}

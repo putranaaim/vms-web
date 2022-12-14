@@ -1,0 +1,12 @@
+.pie-container {
+  height: 453px;
+  padding: 25px;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.pie-container canvas {
+  width: 100% !important;
+}

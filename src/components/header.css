@@ -1,0 +1,56 @@
+header {
+  height: 65px;
+  margin-top: 20px;
+  border-bottom: solid 0.5px #cacaca;
+  z-index: 1;
+}
+
+img {
+  width: 50%;
+  margin-top: 3.5%;
+  margin-left: 6%;
+}
+
+i {
+  font-size: 1.5rem;
+  display: flex;
+  margin: auto;
+  color: #333333;
+  transition: all ease 0.5s;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.avatar {
+  text-align: right;
+}
+
+.avatar i {
+  padding: 3px;
+  border: solid 0.5px #333333;
+  border-radius: 55px;
+  font-size: 2.5rem;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+i:hover {
+  color: #eda302;
+  cursor: pointer;
+  background-color: #d1d1d17e;
+}
+
+p {
+  color: #333333;
+  font-size: 1.3rem;
+  text-align: right;
+  padding-top: 5px;
+  font-weight: 600;
+}
+
+.timestamp {
+  margin-top: -27px;
+  font-size: 1rem;
+}

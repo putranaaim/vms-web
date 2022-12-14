@@ -1,0 +1,103 @@
+.navbar-container {
+  width: 280px;
+  position: absolute;
+  background: rgb(55, 55, 55);
+  z-index: 2;
+  height: -webkit-fill-available;
+  margin-top: -20px;
+  box-shadow: 4px 0px 20px rgb(74, 74, 74);
+  border-right: 6px solid #ffa200;
+}
+
+.projectsite-name {
+  background-color: white;
+  box-shadow: 4px 0px 20px rgba(74, 74, 74, 0.538);
+  height: 50px;
+  margin-right: -20px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.projectsite-name p {
+  text-align: left;
+  width: 60%;
+  font-size: 1.6rem;
+}
+
+.projectsite-name i {
+  width: fit-content;
+  background-color: white;
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 555px;
+  margin-top: -8px;
+  border: 3px solid rgb(255, 162, 0);
+  box-shadow: 4px 0px 20px rgba(74, 74, 74, 0.538);
+}
+
+.site-logo img {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+  transition: all ease 0.5s;
+  list-style: square;
+  display: flex;
+}
+
+li i {
+  margin-left: 40px;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 7px;
+}
+
+li p {
+  margin-top: 9px;
+  text-align: left;
+  width: 65%;
+  font-size: 1.1rem;
+  color: white;
+}
+
+li:hover {
+  background-color: #ffa20085;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.ul-line-padding-unset {
+  padding-inline-start: unset !important;
+}
+
+.logout-container {
+  bottom: 0px;
+  border-top: 1px gray solid;
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-link {
+  width: 100%;
+  display: flex !important;
+}
+
+.active {
+  background-color: #ffa200c8;
+}

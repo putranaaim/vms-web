@@ -5,7 +5,7 @@ function LoginCol1(props) {
   return (
     <div className=" login-col-1">
       <h1>Visitor Management System </h1>
-      <p>
+      <p className="subhead">
         Visitor management system helps you improve building safety and employee
         safety.
       </p>

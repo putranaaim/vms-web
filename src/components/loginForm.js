@@ -14,7 +14,7 @@ export const LoginForm = ({ type, onClick }) => {
       <label for="">Password</label>
       <INPUT placeholder="Password" />
       <p>Forgot Password?</p>
-      <Link to="/wms-web2/dashboard">
+      <Link to="/">
         <button className="btn-1" onClick={onClick} type={type}>
           Sign In
         </button>

@@ -1,0 +1,82 @@
+.list-container {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  border-bottom: solid 0.5px rgb(210, 210, 210) !important;
+}
+
+.list-head {
+  font-size: 0.95rem;
+  color: rgb(155, 155, 155);
+  padding: 0px !important;
+  margin-top: 5px !important;
+}
+
+.list-item-typ-1 {
+  padding: 0px !important;
+  margin-top: -15px !important;
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+.list-item-typ-2 {
+  padding: 0px !important;
+  margin-top: -15px !important;
+  margin-bottom: 0px;
+  font-size: 1.15rem;
+  color: #555555;
+  padding-bottom: 5px !important;
+}
+
+.label-checkin {
+  margin-top: -5px;
+  font-size: 1rem;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffb700;
+  width: fit-content;
+  border-radius: 55px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.label-checkout {
+  margin-top: -5px;
+  font-size: 1rem;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffe100;
+  width: fit-content;
+  border-radius: 55px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.label-registered {
+  margin-top: -5px;
+  font-size: 1rem;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffb700;
+  width: fit-content;
+  border-radius: 55px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.label-overstay {
+  margin-top: -5px;
+  font-size: 1rem;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffb700;
+  width: fit-content;
+  border-radius: 55px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

@@ -1,0 +1,23 @@
+.card-container {
+  width: 100%;
+}
+
+.card-header {
+  border-bottom: none !important;
+  background: none !important;
+}
+
+.card-header p {
+  margin: 0px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+.card-contain {
+  padding: 20px;
+  display: flex;
+  margin: auto !important;
+  width: 100% !important;
+}
