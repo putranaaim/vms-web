@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wms-web/static/css/main.1124e637.css",
-    "main.js": "/wms-web/static/js/main.53d50e16.js",
-    "static/media/loginimg.png": "/wms-web/static/media/loginimg.eb7ba2c8d99997a68547.png",
-    "static/media/optivolve2.png": "/wms-web/static/media/optivolve2.923c70b28afd6243eaf5.png",
-    "index.html": "/wms-web/index.html",
-    "main.1124e637.css.map": "/wms-web/static/css/main.1124e637.css.map",
-    "main.53d50e16.js.map": "/wms-web/static/js/main.53d50e16.js.map"
+    "main.css": "/vms-web/static/css/main.0ac0140f.css",
+    "main.js": "/vms-web/static/js/main.09a2bf2c.js",
+    "static/media/loginimg.png": "/vms-web/static/media/loginimg.eb7ba2c8d99997a68547.png",
+    "static/media/optivolve2.png": "/vms-web/static/media/optivolve2.923c70b28afd6243eaf5.png",
+    "index.html": "/vms-web/index.html",
+    "main.0ac0140f.css.map": "/vms-web/static/css/main.0ac0140f.css.map",
+    "main.09a2bf2c.js.map": "/vms-web/static/js/main.09a2bf2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1124e637.css",
-    "static/js/main.53d50e16.js"
+    "static/css/main.0ac0140f.css",
+    "static/js/main.09a2bf2c.js"
   ]
 }
